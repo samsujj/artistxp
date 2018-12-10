@@ -8,6 +8,7 @@ import {Http, Response, Headers} from '@angular/http';
 export class Commonservices{
     items:Array<any>;
     url:any;
+    fileurl:any;
     uploadurl:any;
     nodeurl:any;
     siteurl:any;
@@ -17,6 +18,7 @@ export class Commonservices{
     LI_CLIENT_SECRET:any;
     constructor(private http: Http) {
             this.siteurl = 'https://audiodeadline.com/';
+            this.fileurl = 'https://audiodeadline.com/nodeserver/uploads/';
             //this.nodeurl = 'http://192.169.196.208:3009/';
             this.nodeurl = 'http://192.169.196.208:3007/';
             //this.url = 'https://audiodeadline.com/serverlocal.php?q=';

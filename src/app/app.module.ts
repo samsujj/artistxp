@@ -20,6 +20,7 @@ import { ArtistheaderComponent } from './artistheader/artistheader.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CompetitionComponent } from './competition/competition.component';
 import { TrendingartistComponent } from './trendingartist/trendingartist.component';
+import { CharlimitPipe } from './charlimit.pipe';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { TrendingartistComponent } from './trendingartist/trendingartist.compone
     ProfileComponent,
     CompetitionComponent,
     TrendingartistComponent,
+    CharlimitPipe,
   ],
   imports: [
     BrowserModule,
